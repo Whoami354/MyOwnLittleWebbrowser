@@ -267,7 +267,7 @@ public class Browser extends BorderPane {
     }
 
     private String checkWebsiteAddress(String text) {
-        if (!text.startsWith("http://")) {
+        if (!text.startsWith("https://")) {
             text = "http://" + text;
         }
         return text;
